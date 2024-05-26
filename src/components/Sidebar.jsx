@@ -40,7 +40,7 @@ const Sidebar = () => {
                                 {item.title}
                             </p>
                             {item.links.map((link) => (
-                                <Navlink
+                                <NavLink
                                     to={`/${link.name}`}
                                     key={link.name}
                                     onClick={() => {}}
@@ -51,7 +51,7 @@ const Sidebar = () => {
                                     <span className="capitalize">
                                         {link.name}
                                     </span>
-                                </Navlink>
+                                </NavLink>
                             ))}
                         </div>
                     ))}
