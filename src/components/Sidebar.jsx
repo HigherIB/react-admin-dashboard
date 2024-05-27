@@ -41,8 +41,6 @@ const Sidebar = () => {
                             }
                             className="text-3xl rounded-full p-3 hover:bg-light-gray mt-4 block
                             ">
-                            <span className="absolute inline-flex rounded-full h-4 w-4 right-2 top-2"
-                             />
                             <MdOutlineCancel />
                         </button>
                     </TooltipComponent>
