@@ -44,8 +44,10 @@ const App = () => {
                       navbar w-full">
                         <Navbar />
                     </div>
-                  
+                    
                     <div>
+                        <ThemeSettings />
+                        
                         <Routes>
                           {/* Dashboard */}
                           <Route path="/" element={<Ecommerce />} />
